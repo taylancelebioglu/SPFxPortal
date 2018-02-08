@@ -1,38 +1,9 @@
 <List xmlns:ows="Microsoft SharePoint" Title="AppsMenu" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/AppsMenu" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
   <MetaData>
     <ContentTypes>
-      <ContentTypeRef ID="0x0100433046F9345F4DEBBB38153A91A627B0">
-        <FieldRefs>
-          <FieldRef ID="{C070C454-5E2F-4F77-8B4A-D56D6421F79C}" />
-          <FieldRef ID="{9031BBFA-9E2B-4A0D-8A8B-1FDA43FB3DAE}" />
-          <FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" />
-          <FieldRef ID="{52578FC3-1F01-4f4d-B016-94CCBCF428CF}" />
-        </FieldRefs>
-      </ContentTypeRef>
+      <ContentTypeRef ID="0x0100433046F9345F4DEBBB38153A91A627B0" />
     </ContentTypes>
-    <Fields>
-      <Field ID="{C070C454-5E2F-4F77-8B4A-D56D6421F79C}"
-                Name="ItemOrder"
-                DisplayName="Item Order"
-                Required="FALSE"  />
-      <Field ID="{9031BBFA-9E2B-4A0D-8A8B-1FDA43FB3DAE}"
-                Name="ItemStatus"
-                DisplayName="Item Status"
-                Required="FALSE" />
-      <Field ID="{3de94b06-4120-41a5-b907-88773e493458}"
-                Name="PublishingPageImage"
-                DisplayName="App Image"
-                Required="FALSE"
-                Description="App image"
-                Sealed="TRUE" />
-      <Field ID="{52578FC3-1F01-4f4d-B016-94CCBCF428CF}"
-                Name="_Comments"
-                DisplayName="$Resources:core,Comments;"
-                Description="$Resources:core,_CommentsDesc;"
-                Sealed="TRUE"
-                ShowInFileDlg="FALSE"
-                Sortable="FALSE" />
-    </Fields>
+    <Fields></Fields>
     <Views>
       <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
         <Toolbar Type="Standard" />

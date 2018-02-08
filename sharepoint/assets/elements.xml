@@ -41,4 +41,13 @@
     </FieldRefs>
   </ContentType>
 
+  <ListInstance
+    CustomSchema="schema.xml"
+    FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+    Title="Apps Menu"
+    OnQuickLaunch="TRUE"
+    TemplateType="100"
+    Url="Lists/AppsMenu"
+    Description="Main page apps menu">
+  </ListInstance>
 </Elements>
