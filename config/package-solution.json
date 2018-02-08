@@ -1,10 +1,21 @@
 {
   "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "sp-fx-portal-client-side-solution",
+    "name": "SPFx Portal",
     "id": "85df7a84-2c74-4cfb-a97a-e3612db61804",
     "version": "1.0.0.0",
-    "includeClientSideAssets": true
+    "includeClientSideAssets": true,
+    "features": [{
+      "title": "SPFxPortal Main Feature",
+      "description": "Deploys content types, site columns, list and libraries",
+      "id": "bb37c561-61cb-4aef-8819-00c8863b7a9c",
+      "version": "1.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml"
+        ]
+      }
+    }]
   },
   "paths": {
     "zippedPackage": "solution/sp-fx-portal.sppkg"
