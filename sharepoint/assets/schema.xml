@@ -1,7 +1,7 @@
 <List xmlns:ows="Microsoft SharePoint" Title="AppsMenu" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/AppsMenu" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
   <MetaData>
     <ContentTypes>
-      <ContentTypeRef ID="0x0100433046F9345F4DEBBB38153A91A627B0" />
+      <ContentTypeRef ID="0x0100433046F9345F4DEBBB38153A91A627B0"></ContentTypeRef>
     </ContentTypes>
     <Fields></Fields>
     <Views>
