@@ -11,19 +11,8 @@ class AppsMenuContainer extends React.Component<IAppsMenuContainerProps, {}> {
 
   state = { apps:[] };
 
-/*
-
-  public constructor(props: IAppsMenuContainerProps){
-    super(props);
-    this.state = {
-      apps: [ ] as IAppsMenuProps []
-    };
-  }
-*/
-
   public render(): React.ReactElement<IAppsMenuContainerProps> {
 
-    console.info(this.state);
     return (
       <div>
         <br></br>
@@ -32,13 +21,12 @@ class AppsMenuContainer extends React.Component<IAppsMenuContainerProps, {}> {
         <div>
           {this.state.apps.map(function(item,key){
             return (
-              <div key={key}>s
-                <div>{item.Title}</div>
-                <div>{item.ItemStatus}</div>
-                <div>{item.ItemStatus}</div>
-              </div>
+              <ul key={key}>
+                <li>
+                  {item.Title} - {item.ItemOrder} - {item.ItemStatus.toString()}
+                </li>
+              </ul>
             );
-
           })}
 
         </div>
