@@ -1,3 +1,7 @@
 export interface IAppsMenuProps {
-  description: string;
+    Title: string;
+    ItemStatus: boolean;
+    ItemOrder: number;
 }
+
+export default  IAppsMenuProps;
