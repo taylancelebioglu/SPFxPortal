@@ -21,14 +21,9 @@ class AppsMenuContainer extends React.Component<IAppsMenuContainerProps, {}> {
         <div>
           {this.state.apps.map(function(item,key){
             return (
-              <ul key={key}>
-                <li>
-                  {item.Title} - {item.ItemOrder} - {item.ItemStatus.toString()}
-                </li>
-              </ul>
+              <AppsMenu key={key} Title={item.Title} ItemOrder={item.ItemOrder} ItemStatus={item.ItemStatus}/>
             );
           })}
-
         </div>
       </div>
     );

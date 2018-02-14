@@ -9,10 +9,10 @@ class AppsMenuWebPart extends BaseClientSideWebPart<IAppsMenuWebPartsProps> {
 
   public render(): void {
     const element: React.ReactElement<IAppsMenuContainerProps> = React.createElement(
-    AppsMenuContainer,{
+      AppsMenuContainer,{
         apps:[]
       }
-  );
+    );
     ReactDom.render(element, this.domElement);
   }
 }
