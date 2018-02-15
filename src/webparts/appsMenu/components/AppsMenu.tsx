@@ -9,7 +9,7 @@ export default class AppsMenu extends React.Component<IAppsMenuProps, {}> {
       <div className={ styles.appsMenu }>
         <div className={ styles.container }>
           <div className={ styles.row }>
-            {escape(this.props.Title)} - {this.props.ItemOrder.toString()} - {this.props.ItemStatus.toString()}
+            {escape(this.props.Title)} - {this.props.ItemOrder} - {this.props.ItemStatus.toString()}
           </div>
         </div>
       </div>

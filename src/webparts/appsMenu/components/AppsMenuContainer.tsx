@@ -5,7 +5,6 @@ import MockHttpClient from "../MockHttpClient";
 import { SPHttpClient, SPHttpClientResponse } from '@microsoft/sp-http';
 import { Environment, EnvironmentType } from '@microsoft/sp-core-library';
 import AppsMenu from "./AppsMenu"
-import * as ReactDom from "react-dom";
 
 class AppsMenuContainer extends React.Component<IAppsMenuContainerProps, {}> {
 
@@ -21,7 +20,9 @@ class AppsMenuContainer extends React.Component<IAppsMenuContainerProps, {}> {
         <div>
           {this.state.apps.map(function(item,key){
             return (
-              <AppsMenu key={key} Title={item.Title} ItemOrder={item.ItemOrder} ItemStatus={item.ItemStatus}/>
+              <div key={key}>
+                <AppsMenu {...item}/>
+              </div>
             );
           })}
         </div>
